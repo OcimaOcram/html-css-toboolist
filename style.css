@@ -44,3 +44,14 @@ body {
     border-radius: 5px;
     margin:10px 10px 10px;
 }
+#container-liste {
+    margin: auto;
+    width: 80%;
+}
+#macro-lista {
+    list-style-type: none;
+}
+#macro-lista li :before {
+    content: "▼";
+}
+
