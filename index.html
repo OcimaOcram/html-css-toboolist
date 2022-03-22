@@ -6,34 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img id="logo" src="img/logo copia.png" alt="logo">
-        <h1>Toboolist</h1>
-    </header>
-    <main>
-        <div class="container">
-            <button class="task">Add Task</button>
-            <button class="section">Add Section</button>
-            <hr>
-            <div id="container-liste">
-                <ul id="macro-lista">
-                    <li>
-                        <h2>New Task</h2>
-                        <ul>
-                            
-                        </ul>
-                    </li>
-                    <li>
-                        <h2>Today</h2>
-                    </li>
-                    <li>
-                        <h2>Upcoming</h2>
-                    </li>
+    <!--Intestazione-->
+    <header id="intestazione">
+       <img src="img/logo copia.png" alt="Logo"> Toboolist
+       </header>
+    <!--Contenitore-->
+        <div id="contenitore">
+
+            <div id="contenitore-tasti">
+                <span id="tasto1">
+                    Add Task
+                </span>
+                <span id="tasto2">
+                    Add Section
+                </span>
+            </div>
+
+                <h2><strong>&#9207;New Task</strong></h2>
+                <ul>
+                    <li><span>&#x2713;</span> quarterly news letter <span class="editorial">editorial</span></li> 
+                </ul>
+
+            <div>
+                <h2><strong>&#9207;</strong>Today</h2>
+                <ul>
+                    <li><span>&#x2713;</span> quarterly news letter <span class="editorial">editorial</span></li> 
+                    <li><span class="x" >&#10007;</span> quarterly news letter <span class="q1-goals">Q1 goals</span></li> 
+                    <li><span>&#x2713;</span> quarterly news letter <span class="editorial">editorial</span></li> 
+                    <li><span>&#x2713;</span> quarterly news letter <span class="editorial">editorial</span></li> 
                 </ul>
             </div>
+
+            <div>
+                <h2><strong>&#9207;</strong>Upcoming</h2>
+                <ul>
+                    <li><span>&#x2713;</span> quarterly news letter <span class="editorial">editorial</span></li> 
+                    <li><span class="x" >&#10007;</span> quarterly news letter <span class="q1-goals">Q1 goals</span></li> 
+                    <li><span>&#x2713;</span> quarterly news letter <span class="editorial">editorial</span></li> 
+                    <li><span>&#x2713;</span> quarterly news letter <span class="editorial">editorial</span></li> 
+                </ul>
+            </div>
+
         </div>
-    </main>
+
 </body>
 </html>
