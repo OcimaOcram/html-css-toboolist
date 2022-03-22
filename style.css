@@ -19,13 +19,14 @@ body {
     padding-bottom: 50px;
 }
 #tasto1 {
-    background-color: blue;
+    background-color: rgb(176, 176, 241);
     color: white;
     padding: 5px;
     border-radius: 3px;
     margin-right: 10px;
 }
 #tasto2 {
+    padding: 3px;
     color: lightgray;
     border: lightgray;
     border-radius: 3px;
@@ -50,7 +51,6 @@ span {
     border-radius: 50%;
     border: 1px solid green;
     color: green;
-    padding-left: -50px;
 }
 
 .editorial {
@@ -64,8 +64,7 @@ span {
   .x{
     border-radius: 50%;
     border: 1px solid rgb(255, 0, 0);
-    color: rgb(255, 0, 0);
-    padding-left: -50px;
+    color: rgb(255, 0, 0); 
   }
 
   .q1-goals {
